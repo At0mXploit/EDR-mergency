@@ -88,7 +88,7 @@ Runtime artifacts (created during execution):
 - `edr_shared.log` - Human-readable event log
 - `edr_alerts.jsonl` - Newline-delimited JSON alerts (machine-readable)
 
-The `builds/` and `logs/` directories are used to keep output files organized. During build, logs may appear in the root—this is normal.
+The `builds/` and `logs/` directories are used to keep output files organized. Make build from root folder.
 ## Running
 
 1. Start 64-bit `notepad.exe`. (This is the where our process injection occours)
