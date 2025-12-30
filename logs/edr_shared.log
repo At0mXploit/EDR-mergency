@@ -1,0 +1,6 @@
+Process: DLLLoader.exe | PID: 11836 | Injected into process
+Process: DLLLoader.exe | PID: 11836 | Hooks installed successfully
+Process: DLLLoader.exe | PID: 11836 | OpenProcess(PROCESS_ALL_ACCESS) pid=8108
+Process: DLLLoader.exe | PID: 11836 | OpenProcess(PROCESS_ALL_ACCESS) pid=8108
+Process: DLLLoader.exe | PID: 11836 | NtAllocateVirtualMemory with PAGE_EXECUTE_READWRITE pid=8108
+Process: DLLLoader.exe | PID: 11836 | Blocked executable memory allocation
