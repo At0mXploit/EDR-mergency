@@ -1,3 +1,5 @@
+
+
 # EDR-mergency
 EDR-mergency is a proof-of-concept Endpoint Detection and Response (EDR) agent for Windows, designed to demonstrate real-time user-mode hooking, monitoring, blocking and alert logging. 
 
@@ -7,7 +9,7 @@ EDR-mergency is a proof-of-concept Endpoint Detection and Response (EDR) agent f
 
 It leverages inline API hooking via [MinHook](https://github.com/TsudaKageyu/minhook) to intercept and log critical process and file operations, providing visibility into potentially malicious activity.
 
-The system consists of three main components:
+The system consists of four main components:
 - **`vhook.dll`**: A DLL that implements API hooks using a custom trampoline (based on hde64).
 - **`Agent.exe`**: A monitoring agent that initializes logging and may coordinate telemetry collection.
 - **`DLLLoader.exe`**: A simple injector that loads `vhook.dll` into a target process using `VirtualAllocEx` + `CreateRemoteThread`. 
@@ -109,4 +111,3 @@ I mean yeah this could go on forever.
 `Target Architecture: x64` )
 
 ---
-
